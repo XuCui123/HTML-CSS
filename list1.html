@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>排版</title>
+  <style type="text/css">
+    .course>li{border: 1px solid red;}
+    .food>li{border: 1px solid red;}
+  </style>
 </head>
 <body>
   <div id="hotlist">
   <h2>热门课程</h2>
-    <ol>
+    <ol class="course">
       <li><a href="#" title="前端开发面试心法" target="_blank">前端开发面试心法</a></li>
       <li>零基础学习html</li>
       <li>javascript全攻略</li>
@@ -21,6 +25,22 @@
     <li>Canvas绘图详解</li>
     <li>QQ5.0侧滑菜单</li>
   </ol>
+  </div>
+  <div>
+    <ul class="food">
+      <li>水果
+        <ul>
+          <li>苹果</li>
+          <li>香蕉</li>
+        </ul>
+      </li>
+      <li>蔬菜
+        <ul>
+          <li>白菜</li>
+          <li>油菜</li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </html>
