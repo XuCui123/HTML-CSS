@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Table</title>
+  <title>Table边框</title>
+  <style type="text/css">
+    table tr,td,th{border: 1px solid #000;}
+  </style>
 </head>
 <body>
-  <table>
+  <table summary=" ">
+  <!-- <tbody> -->
     <tr>
       <th>班级</th>
       <th>学生数</th>
@@ -21,6 +25,7 @@
       <td>35</td>
       <td>85</td>
     </tr>
+  <!-- </tbody> -->
   </table>
 </body>
 </html>
